@@ -1,0 +1,53 @@
+.barrio{
+  margin-top: 87px;
+  padding-left: 300px;
+  width: 100%;
+}
+
+.barrio_title{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: left;
+ 
+}
+
+.search_bar{
+  width: Fixed (195px)px;
+  height: Fixed (30px)px;
+  padding: 20px 20px 20px 20px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  padding-left: 30px;
+}
+
+.search_container {
+  position: relative;
+}
+
+.flaticon-search {
+  position: absolute;
+  left: 10px; /* Ajusta la posición izquierda según sea necesario */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.barrio_select{
+  width: Fixed (323px)px;
+  height: Hug (60px)px;
+  padding: 4px 9px 4px 9px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+
+.custom-btn {
+  width: 198.61px;
+  height: 70px;
+  padding: 17px 31px;
+  gap: 10px;
+  background: rgba(9, 11, 55, 1);
+  border: none; /* Puedes eliminar el borde si lo deseas */
+  color: white; /* Cambia el color del texto según sea necesario */
+}
