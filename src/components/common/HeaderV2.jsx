@@ -39,6 +39,7 @@ export default function HeaderV2() {
             <Link href={ROUTES.Entrepreneurship}>Emprendimientos</Link>
             <Link href={ROUTES.WhoWeAre}>Quienes Somos</Link>
             <Link href={ROUTES.Services}>Servicios</Link>
+            <Link href={ROUTES.TabAgency}>Tablero</Link>
             <div className='login'>
               <Image src={'/images/header/navs/login.svg'} height={50} width={50} alt='user-logo' className='user-logo'/>
               <strong><Link href={ROUTES.Login}>Iniciar / Registrarse</Link></strong>
