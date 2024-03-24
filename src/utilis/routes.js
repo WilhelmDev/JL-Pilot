@@ -8,5 +8,6 @@ export const ROUTES = {
   Login: '/',
   Appraisals: '/tasaciones',
   Contact: '/contacto',
-  Construction: '/construction'
+  Construction: '/construction',
+  TabAgency : '/tab-agent'
 }
