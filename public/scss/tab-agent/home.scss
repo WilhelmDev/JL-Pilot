@@ -105,6 +105,27 @@
       }
     }
     #agent-tab-barrio {
+      .table {
+        background-color: #ffffff;
+      }
+      .container-col {
+        display: flex;
+        gap: 20px;
+        width: 50%;
+      }
+      .bg-custom {
+        background-color: #f4f4f4;
+      }
+      .bt-custom2 {
+        background-color: white;
+        border: 1px solid #000000;
+      }
+      .not-border-color {
+        border-color: transparent;
+      }
+      .small {
+        height: 70%;
+      }
       padding: 1.5% 5%;
       .info-user-cont {
         color: $IntenseDarkBlue2;

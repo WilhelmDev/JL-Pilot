@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import TableTabAgent from "@/components/tab-agent/Table";
+import Pagination from "@/components/listing/Pagination";
 
 export const metadata = {
   title: "Tablero de barrios",
@@ -28,7 +30,7 @@ const AgentTabBarrio = ({ params }) => {
             </div>
           </div>
           <div className="info-item">
-            <div class="input-group mb-3">
+            <div className="input-group mb-3">
               <select
                 class="input-group-custom form-select"
                 id="inputGroupSelect01"
@@ -45,6 +47,15 @@ const AgentTabBarrio = ({ params }) => {
             <button className="input-submit-custom btn btn-primary">
               Agregar nuevo
             </button>
+          </div>
+        </div>
+
+        <TableTabAgent />
+
+        <div className="row mt-5">
+          <div className="mbp_pagination text-center">
+            <Pagination />
+            <p className="mt10 pagination_page_count text-center"></p>
           </div>
         </div>
       </section>
