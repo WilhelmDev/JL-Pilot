@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import TableTabAgent from "@/components/tab-agent/Table";
+import TableTabAgent from "@/components/tab-agent/neighborhood/Table";
 import Pagination from "@/components/listing/Pagination";
 
 export const metadata = {
@@ -11,7 +11,6 @@ const AgentTabBarrio = ({ params }) => {
   return (
     <>
       <section className="main-content" id="agent-tab-barrio">
-        <div className="info-user-cont"></div>
         <div className="info-user-cont">
           <p className="welcome-user">Todos los barrios</p>
           <span>

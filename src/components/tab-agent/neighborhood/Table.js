@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import profilePic from "../../../public/images/tab-agent/CasasDeChamba.png";
-import heart from "../../../public/images/tab-agent/heart.svg";
-import { PencilIcon, ShareIcon, TrashIcon } from "./Icon";
+import profilePic from "../../../../public/images/tab-agent/CasasDeChamba.png";
+import heart from "../../../../public/images/tab-agent/heart.svg";
+import { PencilIcon, ShareIcon, TrashIcon } from "../Icon";
 
 export default function TableTabAgent() {
   return (
