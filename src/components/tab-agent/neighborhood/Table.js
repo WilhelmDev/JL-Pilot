@@ -72,15 +72,23 @@ export default function TableTabAgent() {
               </div>
             </td>
             <td>
-              <button class="btn btn-outline-dark">
-                <TrashIcon />
-              </button>
-              <button class="btn btn-outline-dark">
-                <ShareIcon />
-              </button>
-              <button class="btn btn-outline-dark">
-                <PencilIcon />
-              </button>
+              <div className="m-2 d-flex justify-content-center">
+                <button className="btn btn-outline-dark">
+                  <TrashIcon />
+                </button>
+              </div>
+              <div className="d-flex flex-nowrap justify-content-center">
+                <div>
+                  <button className="btn btn-outline-dark m-2">
+                    <ShareIcon />
+                  </button>
+                </div>
+                <div>
+                  <button className="btn btn-outline-dark m-2">
+                    <PencilIcon />
+                  </button>
+                </div>
+              </div>
             </td>
           </tr>
         </tbody>
