@@ -1,0 +1,49 @@
+#tab-agent {
+  #content {
+    #pagination {
+      font-size: $paginationButtonFontSize;
+      text-align: center;
+      ul {
+        padding: 0;
+        margin: 0;
+        display: inline-flex;
+        gap: 5px;
+      }
+      li {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        transition-duration: $transitionDuration;
+        &.current {
+          background-color: $darkBlueText;
+          a {
+            color: $whiteTextColor;
+          }
+        }
+        &.changer {
+          background-color: $changerBackgroundColor;
+        }
+        &:hover:not(.current, .disabled) {
+          background-color: rgba($darkBlueText, 0.7);
+          a {
+            color: $whiteTextColor;
+          }
+        }
+      }
+      a {
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: $blackTextColor;
+        transition-duration: $transitionDuration;
+      }
+      p {
+        font-size: $paginationParagraphFontSize;
+        margin: 0;
+        margin-top: 10px;
+      }
+    }
+  }
+}
