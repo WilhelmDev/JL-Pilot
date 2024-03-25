@@ -1,0 +1,61 @@
+#tab-agent {
+  #content {
+    #actions {
+      display: flex;
+      padding: 0;
+      gap: 20px;
+      form {
+        display: flex;
+        gap: 20px;
+      }
+      label {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        width: 195px;
+        height: 60px;
+        padding: 20px 23px;
+        background-color: #FFFFFF;
+        border: 1px solid #DDDDDD;
+        &.order-by {
+          width: 323px;
+          p {
+            margin: 0;
+            color: #717171;
+          }
+        }
+        &:focus-within, &:focus {
+          outline: 1px solid #000000;
+        }
+      }
+      input {
+        min-width: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: $inputFontSize;
+        &::placeholder {
+          color: rgba(33, 37, 41, 0.75);
+        }
+        &[type="search"] {
+          flex-grow: 1;
+          // Remove default search input styling
+          appearance: none;
+          -webkit-appearance: none;
+          &::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration {
+            -webkit-appearance: none;
+          }
+        }
+      }
+      select {
+        flex-grow: 1;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        color: #212529;
+        ;
+      }
+    }
+  }
+}
