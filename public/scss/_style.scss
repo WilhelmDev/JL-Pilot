@@ -19,6 +19,8 @@ Tag: advanced search, agency, agent, classified, directory, house, listing, prop
 @import url(../css/menu.css);
 @import url(../css/ud-custom-spacing.css);
 @import "./variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* == Table Of Content  == */
 /* Variables */
@@ -68,20 +70,21 @@ Tag: advanced search, agency, agent, classified, directory, house, listing, prop
 ==================================*/
 /* Variables */
 :root {
-  --title-font-family: "Poppins", sans-serif;
-  --body-font-family: "__DM_Sans_aac82c", "__DM_Sans_Fallback_aac82c";
+  --title-font-family: "Work Sans", sans-serif ;
+  --body-font-family: "Work Sans", sans-serif;
   --icon-font-family: "Font Awesome 6 Pro";
   --icon-font-family2: "Flaticon";
   --container-width: 1290px;
   --divder-space: 200px;
   --headings-color: #06173d;
-}
-
-/* Mixins */
-/* Typography Styles */
-html,
-body {
-  scroll-behavior: auto !important;
+  }
+  
+  
+  /* Mixins */
+  /* Typography Styles */
+  html,
+  body {
+    scroll-behavior: auto !important;
 }
 
 body {
