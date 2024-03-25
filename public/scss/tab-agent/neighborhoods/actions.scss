@@ -1,9 +1,10 @@
 #tab-agent {
   #content {
     #actions {
+      $gap: 20px;
       display: flex;
       padding: 0;
-      gap: 20px;
+      gap: $gap;
       a {
         width: 198px;
         height: 60px;
@@ -24,7 +25,7 @@
       }
       form {
         display: flex;
-        gap: 20px;
+        gap: $gap;
       }
       label {
         display: inline-flex;
