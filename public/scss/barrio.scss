@@ -1,0 +1,96 @@
+.barrio{
+  margin-top: 87px;
+  padding-left: 300px;
+  width: 100%;
+}
+
+.barrio_title{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: left;
+ 
+}
+
+.search_bar{
+  width: Fixed (195px)px;
+  height: Fixed (30px)px;
+  padding: 20px 20px 20px 20px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  padding-left: 30px;
+}
+
+.search_container {
+  position: relative;
+}
+
+.flaticon-search {
+  position: absolute;
+  left: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.barrio_select{
+  width: Fixed (323px)px;
+  height: Hug (60px)px;
+  padding: 4px 9px 4px 9px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+
+
+.custom-btn {
+  width: 198.61px;
+  height: 70px;
+  padding: 17px 31px;
+  gap: 10px;
+  background: rgba(9, 11, 55, 1);
+  border: none; 
+  color: white; 
+}
+
+.button_blue{
+  width: Fixed (100px)px;
+  height: Fixed (28px)px;
+  padding: 20px 10px 15px 10px;
+  gap: 10px;
+}
+
+.box_icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin: 0;
+}
+
+.page-link {
+  border-radius: 48px;
+  padding: 10px 18px; /* Ajusta el espaciado interno de los botones según sea necesario */
+  margin: 0 10px; /* Ajusta el espaciado entre los botones según sea necesario */
+  color: rgba(24, 26, 32, 1);
+}
+
+.page-link:hover,
+.page-link:focus {
+  background-color: linear-gradient(0deg, #011840, #011840); /* Cambia el color de fondo al pasar el mouse o al enfocar */
+}
+
+.page-item.active .page-link {
+  background: linear-gradient(0deg, #011840, #011840);
+  color: #fff; /* Cambia el color del texto del botón activo */
+}
