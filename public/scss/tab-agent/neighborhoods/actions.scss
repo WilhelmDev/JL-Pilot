@@ -4,6 +4,24 @@
       display: flex;
       padding: 0;
       gap: 20px;
+      a {
+        width: 198px;
+        height: 60px;
+        padding: 17px 31px;
+        background-color: #090B37;
+        font-size: 15px;
+        text-transform: capitalize;
+        color: $whiteTextColor;
+        text-align: center;
+        text-decoration: none;
+        transition-duration: $transitionDuration;
+        &:hover {
+          background-color: rgba(#090B37, 0.7);
+        }
+        &:focus {
+          outline: 1px solid #000000;
+        }
+      }
       form {
         display: flex;
         gap: 20px;
