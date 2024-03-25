@@ -202,25 +202,11 @@ const AgentTabHome = ({ params }) => {
                 </tr>
               </tbody>
             </table>
-            <div class='pagination'>
-              <a href='#' class='page'>
-                &laquo;
-              </a>
-              <a href='#' class='page active'>
-                1
-              </a>
-              <a href='#' class='page'>
-                2
-              </a>
-              <a href='#' class='page'>
-                3
-              </a>
-              <a href='#' class='page'>
-                4
-              </a>
-              <a href='#' class='page'>
-                &raquo;
-              </a>
+            <div className='d-flex justify-content-center mt-3'>
+              <Pagination />
+            </div>
+            <div className='d-flex justify-content-center mt-3'>
+              <p>1-5 de 300+ Propiedades</p>
             </div>
           </section>
 
