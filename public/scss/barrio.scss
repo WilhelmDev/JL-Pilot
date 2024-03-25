@@ -27,7 +27,7 @@
 
 .flaticon-search {
   position: absolute;
-  left: 10px; /* Ajusta la posición izquierda según sea necesario */
+  left: 10px; 
   top: 50%;
   transform: translateY(-50%);
 }
@@ -48,6 +48,55 @@
   padding: 17px 31px;
   gap: 10px;
   background: rgba(9, 11, 55, 1);
-  border: none; /* Puedes eliminar el borde si lo deseas */
-  color: white; /* Cambia el color del texto según sea necesario */
+  border: none; 
+  color: white; 
+}
+
+.button_blue{
+  width: Fixed (100px)px;
+  height: Fixed (28px)px;
+  padding: 20px 10px 15px 10px;
+  gap: 10px;
+}
+
+.box_icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.pagination {
+  display: flex;
+  width: Fill (1,008px)px;
+height: Hug (60px)px;
+padding: 0px 230px 0px 230px;
+gap: 5px;
+
+}
+
+.page {
+  padding: 15px;
+  margin: 3px 2px;
+  border: 1px solid transparent;
+  border-radius: 80%; 
+  text-decoration: none;
+  color: #333;
+}
+
+.page:hover {
+  border-color: #333; 
+}
+
+.page.active {
+  font-weight: bold;
+  background-color: #333;
+  color: #fff;
+}
+
+.page.active:hover {
+  background-color: #333;
+  border-color: transparent; 
 }
