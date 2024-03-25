@@ -1,0 +1,36 @@
+#tab-agent {
+  .neighborhood-card {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    padding-right: 0;
+
+    &__info-container {
+      font-size: 16px;
+      font-weight: 400;
+      display: flex;
+      text-align: left;
+      flex-direction: column;
+    }
+
+    &__name {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+
+    &__type {
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 0;
+      color: var($gray1);
+    }
+
+    &__location {
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 0;
+      color: var($gray1);
+    }
+  }
+}

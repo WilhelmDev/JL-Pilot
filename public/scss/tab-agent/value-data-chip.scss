@@ -1,0 +1,43 @@
+#tab-agent {
+  .value-data-chip-v1 {
+    min-width: 108px;
+    min-height: 32px;
+    background-color: #f4f4f4;
+
+    &__value {
+      margin-bottom: 0;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    &__label {
+      margin-bottom: 0;
+      font-size: 10px;
+      font-weight: 300;
+    }
+  }
+
+  .value-data-chip-v2 {
+    min-width: 100px;
+    min-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background: #0451ddcc;
+
+    &__value {
+      margin-bottom: 0;
+      font-size: 12px;
+      font-weight: 500;
+      color: white;
+    }
+
+    &__label {
+      margin-bottom: 0;
+      font-size: 12px;
+      font-weight: 500;
+      color: white;
+    }
+  }
+}

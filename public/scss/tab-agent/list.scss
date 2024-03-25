@@ -1,0 +1,35 @@
+#tab-agent {
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+  }
+
+  .custom-table {
+    font-size: 14px;
+    color: #181a20;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .custom-table-header,
+  .custom-table-row {
+    background-color: white;
+    height: 66px;
+  }
+
+  .show-list-button {
+    min-width: 108px;
+    min-height: 32px;
+    background-color: white;
+    border: 1px solid #06173d;
+    font-size: 12px;
+    font-weight: 600;
+    transition-duration: 0.2s;
+
+    &:hover {
+      background-color: #06173d;
+      color: white;
+    }
+  }
+}

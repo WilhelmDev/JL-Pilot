@@ -1,8 +1,17 @@
 #tab-agent {
   #content {
-    background-color: $gray2
+    background-color: $gray2;
+  }
+
+  .button {
+    background: #090b37;
+    color: white;
   }
 }
 @import "./sidebar.scss";
 @import "./footer.scss";
 @import "./home.scss";
+@import "./header.scss";
+@import "./list.scss";
+@import "./neighborhoods.scss";
+@import "./value-data-chip.scss";
