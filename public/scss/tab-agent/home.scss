@@ -119,12 +119,52 @@
       .bt-custom2 {
         background-color: white;
         border: 1px solid #000000;
+        transition: background-color 0.5s ease;
+      }
+      .btn.bt-custom2:hover {
+        background-color: #181a20;
+        border: 1px solid #ffffff;
+        border-color: #ffffff;
+      }
+      .btn.bt-custom2:hover p {
+        color: #ffffff;
       }
       .not-border-color {
         border-color: transparent;
       }
       .small {
         height: 70%;
+      }
+      .not-hover {
+        &:hover {
+          background-color: inherit;
+          transition: none;
+        }
+      }
+      .heart-icon {
+        transition: fill 0.3s ease;
+      }
+
+      .heart-icon:hover {
+        fill: red;
+      }
+      .heart-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+
+      .heart-button:focus {
+        outline: none;
+      }
+      .share-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+      }
+
+      .share-button:focus {
+        outline: none;
       }
       padding: 1.5% 5%;
       .info-user-cont {

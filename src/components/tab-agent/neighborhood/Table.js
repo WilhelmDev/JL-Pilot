@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import profilePic from "../../../../public/images/tab-agent/CasasDeChamba.png";
-import heart from "../../../../public/images/tab-agent/heart.svg";
+import HeartButton from "./HeartButton";
 import { PencilIcon, ShareIcon, TrashIcon } from "../Icon";
 
 export default function TableTabAgent() {
@@ -33,13 +33,19 @@ export default function TableTabAgent() {
             </td>
             <td>
               <div className="d-grid gap-2 col-5 ms-3">
-                <div className="btn btn-secondary btn-sm bg-custom not-border-color small">
-                  <span className="fw-bold">16</span>
-                  <p className="">propiedades</p>
+                <div className="btn-sm bg-custom not-border-color small">
+                  <span className="d-flex justify-content-center fw-bold">
+                    16
+                  </span>
+                  <p className="d-flex justify-content-center">propiedades</p>
                 </div>
-                <div className="btn btn-secondary btn-sm bg-custom not-border-color small">
-                  <span className="fw-bold">2</span>
-                  <p className="">emprendimientos</p>
+                <div className="btn-sm bg-custom not-border-color small">
+                  <span className="d-flex justify-content-center fw-bold">
+                    2
+                  </span>
+                  <p className="d-flex justify-content-center">
+                    emprendimientos
+                  </p>
                 </div>
                 <div className="btn btn-secondary btn-sm bt-custom2 text-uppercase small">
                   <p className="fw-bold">Ver lista</p>
@@ -57,10 +63,11 @@ export default function TableTabAgent() {
               <p className="me-4">nombre de usuarioS solicito una visita</p>
             </td>
             <td>
-              <div className="d-grid gap-2 col-5 m-4">
-                <Image src={heart} alt="heart" width={25} height={23} />
-                2 Favoritos
-                <ShareIcon />
+              <div className="d-grid gap-2 col-4 m-5">
+                <HeartButton />2 Favorito
+                <button className="share-button">
+                  <ShareIcon />
+                </button>
                 Compartido 10
               </div>
             </td>
