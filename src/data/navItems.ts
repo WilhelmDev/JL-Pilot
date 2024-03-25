@@ -117,4 +117,5 @@ export const pageItems: NavItem[] = [
   { href: "/tasaciones", label: "Tasaciones" },
   { href: "/construction", label: "Construction" },
   { href: "/contacto", label: "Contacto" },
+  { href: "/tab-agent", label: "Tablero de Agente" },
 ];
