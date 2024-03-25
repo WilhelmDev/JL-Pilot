@@ -19,8 +19,9 @@ const OrderBy = () => {
       ...provided,
       padding: "10px",
       cursor: "pointer",
-      backgroundColor: state.isFocused ? "#06173d" : "#f8f9fa",
-      color: state.isFocused ? "white" : "black",
+      backgroundColor:
+        state.isFocused || state.isSelected ? "#06173d" : "#f8f9fa",
+      color: state.isFocused || state.isSelected ? "white" : "black",
     }),
     indicatorSeparator: (provided) => ({
       ...provided,
