@@ -1,7 +1,7 @@
 import Table from "@/components/tab-agent/Table";
 import Pagination from "@/components/listing/Pagination";
 
-const AgentTabBarrio = ({ params }) => {
+const AgentTabBarrio = () => {
   return (
     <div className="container">
       <div className="m-4">

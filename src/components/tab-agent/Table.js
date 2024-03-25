@@ -2,7 +2,7 @@ import { HeartIcon, ShareIcon, TrashIcon, PencilIcon } from "@/icons/icons";
 
 const Table = () => {
   return (
-    <table className="table align-middle mb-0 bg-white">
+    <table className="table bg-white" id="table">
       <thead>
         <tr className="text-center">
           <th>Propiedad y detalles</th>
@@ -17,7 +17,12 @@ const Table = () => {
         <tr>
           <td className="p-4">
             <div className="d-flex align-items-center">
-              <img src="https://picsum.photos/150/200" alt="property-image" />
+              <img
+                src="https://picsum.photos/150/200"
+                alt="property-image"
+                height={250}
+                width={200}
+              />
               <div className="ms-3">
                 <p className="fw-bold mb-1">Nombre del Barrio</p>
                 <p className="text-muted mb-0">Tipo de barrio</p>
@@ -62,15 +67,10 @@ const Table = () => {
             </div>
           </td>
           <td className="p-4">
-            <div className="m-2 d-flex justify-content-center">
-              <button className="btn btn-outline-dark">
-                <TrashIcon />
-              </button>
-            </div>
             <div className="d-flex flex-nowrap justify-content-center">
               <div>
                 <button className="btn btn-outline-dark m-2">
-                  <ShareIcon />
+                  <TrashIcon />
                 </button>
               </div>
               <div>
@@ -78,6 +78,11 @@ const Table = () => {
                   <PencilIcon />
                 </button>
               </div>
+            </div>
+            <div className="m-2 d-flex justify-content-center">
+              <button className="btn btn-outline-dark">
+                <ShareIcon />
+              </button>
             </div>
           </td>
         </tr>

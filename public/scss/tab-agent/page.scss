@@ -1,6 +1,6 @@
 #search-button {
     background-color: rgb(6, 23, 61);
-    color: $white;
+    color: white;
     appearance: none;
     border: none;
     border-radius: 0px;
@@ -11,9 +11,9 @@
     cursor: pointer;
 
     &:hover {
-        background: $white;
+        background: white;
         color: rgb(6, 23, 61);
-        border: 2px solid rgb(6, 23, 61);
+        border: 1px solid rgb(6, 23, 61);
     }
 }
 
@@ -30,18 +30,18 @@
     }
 
     .list-button {
-        border: 1px solid black;
+        border: 1px solid #212529;
         width: 100%;
-        color: black;
+        color: #212529;
         font-size: 16px;
         cursor: pointer;
         border-radius: 0px;
         font-size: 14px;
-        font-weight: 600;
+        font-weight: 400;
         background-color: $white;
 
         &:hover {
-            background: black;
+            background: #212529;
             color: $white;
         }
     }
@@ -69,7 +69,7 @@
         border-radius: 0px;
 
         &:hover {
-            border-color: black;
+            border-color: #212529;
             color: $white;
         }
     }
@@ -81,14 +81,14 @@
     height: 55px;
 
     &:hover {
-        border-color: black;
+        border-color: #212529;
     }
 }
 
 .request-text {
     width: 100%;
-    margin: 1.5rem;
-    color: $white;
+    padding: 1em;
+    color: white;
     font-size: 16px;
     border-radius: 0px;
     font-size: 14px;
@@ -97,6 +97,11 @@
 
     &:hover {
         background: rgb(21, 51, 221);
-        
+
     }
+}
+
+
+#table {
+    font-size: 16px;
 }
