@@ -29,6 +29,9 @@
             color: $whiteTextColor;
           }
         }
+        &:focus-within, &:focus {
+          outline: 1px solid #000000;
+        }
       }
       a {
         width: 100%;
