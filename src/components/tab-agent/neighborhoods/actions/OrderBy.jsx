@@ -1,5 +1,3 @@
-"use client";
-
 const OrderBy = () => {
   //TODO: fix bug where the select doesn't open when clicking on its label
   return (
