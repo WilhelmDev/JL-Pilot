@@ -31,7 +31,7 @@ const Neighborhoods = () => {
             </tbody>
           </table>
         </div>
-        <Pagination />
+        <Pagination baseHref="/tab-agent/neighborhoods" />
       </div>
     </>
   );
