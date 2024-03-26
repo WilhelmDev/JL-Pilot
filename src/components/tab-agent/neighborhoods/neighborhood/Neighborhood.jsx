@@ -1,7 +1,6 @@
 import Image from "next/image";
 
 const Neighborhood = () => {
-  //TODO: make Favorites and Shared components's icons accessible
   //TODO: make Favorites and Shared components's icons focusable
   return (
     <tr>
@@ -127,14 +126,18 @@ const WatchListButton = () => (
 
 const Favorites = () => (
   <div>
-    <span className="icon favorites-icon"></span>
+    <span
+      className="icon favorites-icon"
+      role="img"
+      aria-label="Añadir a favoritos"
+    ></span>
     <span>10 Favoritos</span>
   </div>
 );
 
 const Shared = () => (
   <div>
-    <span className="icon shared-icon"></span>
+    <span className="icon shared-icon" role="img" aria-label="Compartir"></span>
     <span>Compartido 20</span>
   </div>
 );
