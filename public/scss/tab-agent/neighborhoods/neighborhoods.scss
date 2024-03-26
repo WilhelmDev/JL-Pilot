@@ -96,6 +96,32 @@
               font-weight: 400;
             }
           }
+          .icon {
+            height: 25px;
+            width: 25px;
+            mask-size: contain;
+            mask-repeat: no-repeat;
+            mask-position: center;
+            background-color: #000000;
+            cursor: pointer;
+            transition-duration: $transitionDuration;
+            &:hover {
+              width: 40px;
+              height: 40px;
+            }
+          }
+          .favorites-icon {
+            mask-image: url("/images/tab-agent/fav.svg");
+            &:hover {
+              background-color: #E53935;
+            }
+          }
+          .shared-icon {
+            mask-image: url("/images/tab-agent/share.svg");
+            &:hover {
+              background-color: $azureBlue;
+            }
+          }
         }
         &-actions {
           display: flex;
