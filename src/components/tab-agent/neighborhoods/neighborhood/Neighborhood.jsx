@@ -89,17 +89,17 @@ const Actions = () => (
       <ActionButton
         actionRedirect="#"
         imgSrc="/images/custom/trash.svg"
-        alt="Eliminar"
+        ariaLabel="Eliminar barrio"
       />
       <ActionButton
         actionRedirect="#"
         imgSrc="/images/custom/pencil.svg"
-        alt="Editar"
+        ariaLabel="Editar barrio"
       />
       <ActionButton
         actionRedirect="#"
         imgSrc="/images/tab-agent/share.svg"
-        alt="Compartir"
+        ariaLabel="Compartir barrio"
       />
     </div>
   </td>
@@ -142,8 +142,18 @@ const Shared = () => (
   </div>
 );
 
-const ActionButton = ({ actionRedirect, imgSrc, alt }) => (
+const ActionButton = ({
+  actionRedirect,
+  imgSrc,
+  className = "",
+  ariaLabel,
+}) => (
   <a href={actionRedirect}>
-    <Image src={imgSrc} width={14} height={14} alt={alt} />
+    <span
+      className={`actions-icon ${className}`}
+      role="img"
+      aria-label={ariaLabel}
+      style={{ maskImage: `url(${imgSrc})` }}
+    ></span>
   </a>
 );

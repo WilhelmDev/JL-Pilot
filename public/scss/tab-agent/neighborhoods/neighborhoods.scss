@@ -135,6 +135,33 @@
             width: 40px;
             height: 40px;
             border: 1px solid #CCCCCC;
+            &:hover {
+              background-color: rgba(6, 23, 61, 0.7);
+              color: $whiteTextColor;
+              .actions-icon {
+                width: 30px;
+                height: 30px;
+                background-color: $whiteTextColor;
+              }
+            }
+            &:focus, &:focus-within {
+              outline: 1px solid #000000;
+            }
+          }
+          .actions-icon {
+            height: 15px;
+            width: 15px;
+            mask-size: contain;
+            mask-repeat: no-repeat;
+            mask-position: center;
+            background-color: #000000;
+            cursor: pointer;
+            transition-duration: $transitionDuration;
+            &:hover {
+              width: 30px;
+              height: 30px;
+              background-color: $whiteTextColor;
+            }
           }
         }
         &-detail-box {
