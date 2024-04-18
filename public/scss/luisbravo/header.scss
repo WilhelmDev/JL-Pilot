@@ -1,0 +1,85 @@
+.header-bienes-raices{
+    width: 100%;
+    height: 116px;
+    display: flex;
+    justify-content: space-between;
+ 
+    *{
+        margin: 0;
+    }
+    .logo-bienes-raices{
+        padding: 0 10px;
+    }
+    .nav-container{
+        width: 100%;
+        .header-contact{
+            height: 50px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            background-color: #14348C;
+            color: #fff;
+            font-size: 18px;
+            .info-contact{
+                display: flex;
+                align-items: center;
+                margin: 0 10px;
+                p{
+                    font-size: 18px;
+                    color: #fff;
+                    margin: 0;
+                }
+                i{
+                    margin-right: 5px;
+                }
+            }
+            .social-icons{
+                margin-right: 20px;
+                i{
+                    margin: 0 10px;
+                }
+            }
+        }
+        .nav-menu{
+            height: 66px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 17px;
+            .links-container{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .nav-btn{
+                display: flex;
+                align-items: center;
+                li{
+                    justify-content: space-around;
+                    color: #0451DD;
+                    border: 1px solid #0451DD;
+                    border-radius: 2px;
+                    padding: 8px 20px;
+                    margin: 1px 5px;
+                    a{
+                        display: flex;
+                        color: #0451DD;
+                        i{
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                .user-btn{
+                    background-color: transparent;
+                    border: none;
+                    border-radius: 20px;
+                    i{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+}

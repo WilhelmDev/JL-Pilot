@@ -1,0 +1,106 @@
+.general{
+    margin: 0 auto; 
+    border:1px solid #181a2012;
+    margin-top: 40px;
+    padding: 30px;
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .info{
+        display: flex;
+        justify-content: space-between;
+        .location{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            div{
+                display: flex;
+            }
+            .direction{
+                p{
+                    margin: 0 5px;
+                }
+            }
+            .btn-location{
+                .btn{
+                    background-color: transparent;
+                    border:1px solid #181A2012;
+                    margin: 0 5px;
+                    padding: 5px 10px;
+                    font-size: 18px; 
+                }
+            }
+        }
+        .price{
+            display: flex;
+            .btn-price{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: end;
+                .btn{
+                    background-color: transparent;
+                    border:1px solid #181A2012;
+                    margin: 0 5px;
+                    padding: 8px 10px;
+                    font-size: 18px; 
+                    border-radius: 0px;
+                    margin: 0;
+                    font-size: 15px;
+                }
+                .btn:hover{
+                    background-color: #06173D;
+                    color: #F4F4F4;
+                }
+            }
+            .amount{
+                border: 1px solid #181A2012;
+                padding: 5px 20px;
+                text-align: end;
+                strong{
+                    font-size: 27px;
+                }
+            }
+            @media screen and (max-width: 900px) {
+                .amount{
+                    strong{
+                        font-size: 20px;
+                    }
+                }
+            }
+            @media screen and (max-width: 600px) {
+                .amount{
+                    strong{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+    .container-aditional-info{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        
+        .aditional-info{
+            margin-right: 10px;
+            margin-top: 10px;
+            text-align: center;
+            .data{
+                font-size: 52px;
+                padding: 5px 10px;
+            }
+            .desc{
+                padding: 3px 7px;
+                font-size: 19px;
+                font-weight: 600;
+            }
+            p{
+                border: 1px solid #181A2012;
+            }
+        }
+    }
+}

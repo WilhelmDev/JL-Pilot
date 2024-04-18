@@ -1,0 +1,94 @@
+.other{
+    .properties-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        min-width: 500px;
+        .property{
+            width: 45%;
+            margin: 10px;
+            box-shadow: 0px 1px 4px 0px #181A2012;
+            .house{
+                .info-house{
+                    position: absolute;
+                    top: 0;
+                    margin: 30px;
+                    display: flex;
+                    .state{
+                        background-color: #0451DDCC ;
+                        color: #F7F7F7;
+                        display: flex;
+                        line-height: 5;
+                        .btn-state{
+                            background-color: #06173DCC;
+                            padding: 0 15px;
+                        }
+                        .infor-state{
+                            padding: 0 10px;
+                        }
+                    }
+                    .price{
+                        background-color: #f4f4f4;
+                        display: flex;
+                        .total-amount{
+                            display: flex;
+                            flex-direction: column;
+                            margin: 10px 20px;
+                            .price-USD{
+                                font-size: 17px;
+                                font-weight: 600;
+                            }
+                            .price-ARS{
+                                font-size: 13px;
+                                font-weight: 300;
+                            }
+                        }
+                        .price-btn{
+                            display: flex;
+                            .btn{
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .agent{
+                position: absolute;
+                right: 4vw;
+                margin-top: -50px;
+            }
+            .name-property{
+                margin: 20px;
+                h3{
+                    font-size: 19px;
+                    font-weight: 400;
+                }
+                p{
+                    font-size: 16;
+                }
+            }
+            .property-characteristics{
+                margin: 20px;
+                .rooms{
+                    display: flex;
+                    font-size: 16px;
+                    border-bottom: 1px solid #DDDDDD;
+                    margin-bottom: 20px;
+                    p{
+                        margin-right: 20px;
+                    }
+                    i{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 900px) {
+            .property{
+                margin-top: 20px;
+                width: 100%;
+            }      
+        }
+    }
+}
