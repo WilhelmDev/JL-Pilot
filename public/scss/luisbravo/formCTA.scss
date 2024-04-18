@@ -1,0 +1,165 @@
+.form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .info{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .agent{
+            box-shadow: 0px 10px 40px 0px #181A200D;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-bottom: 20px;
+            h4{
+                font-size: 17px;
+                font-weight: 600;
+                margin: 20px;
+            }
+            .info-agent{
+                margin: 0px 20px;
+                display: flex;
+                .img{
+                    width: 90px;
+                    margin-right: 20px;
+                }
+                div{
+                    p{
+                        margin: 0;
+                    }
+                    .name{
+                        font-size: 19px;
+                        font-weight: 600;  
+                    }
+                    .phone{
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+                    a{
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            .btn{
+                margin: 20px auto;
+                border: 1px solid #06173D;
+                border-radius: 1px;
+                font-size: 26px;
+                font-weight: 600;
+            }
+        }
+        .more-info{
+            padding: 20px;
+            box-shadow: 0px 10px 40px 0px #181A200D;
+            h4{
+                margin-bottom: 20px;
+                font-size: 17px;
+                font-weight: 600;
+            }
+            p{
+                margin-top: 20px;
+                font-size: 19px;
+                font-weight: 300;
+                line-height: 52px;
+            }
+        }
+    }
+    .form{
+        width: 45%;
+        box-shadow: 0px 10px 40px 0px #181A200D;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        padding: 20px;
+        .options-btn{
+            display: flex;
+            border: 1px solid #0451DD;
+            .btn{
+                width: 50%;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                text-transform: uppercase;
+
+            }
+            .active{
+                background-color: #0451DD;
+                border-radius: 0px;
+                color: #f4f4f4;
+            }
+        }
+        p{
+           font-size: 16px;
+           font-weight: 400;
+           border-top: 1px solid #dddddd;
+           padding-top: 5px;
+           margin: 5px 0;
+        }
+        .more-options-btn{
+            display: flex;
+            justify-content: start;
+            .btn{
+                border: 1px solid #06173D;
+                color: #06173D;
+                margin: 0 20px 20px 0;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                text-transform: uppercase;
+                border-radius: 0px;
+            }
+            .active{
+                background-color: #0451DD;
+                border: 1px solid #0451DD;
+                color: #f4f4f4;
+            }
+        }
+        form{
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                li{
+                    margin-bottom: 20px;
+                    width: 100%;
+                    border: 1px solid #DDDDDD;
+                    .input{
+                        padding: 16px 12px 16px 15px;
+                        font-size: 19px;
+                        width: 400;
+                        width: 100%;
+                        background: #F4F4F4;
+                        border: 0;
+                    }
+                }
+                .list-btn{
+                    width: 50%;
+                    border: 0;
+                    margin: 0;
+                    .btn{
+                        font-size: 20px;
+                        font-weight: 600;
+                        padding: 14px 20px;
+                        text-transform: uppercase;
+                        background-color: #0451DD;
+                        color: #f4f4f4;
+                        border-radius: 0;
+                        
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .info{
+            width: 100%;
+        }  
+        .form{
+            margin-top: 20px;
+            width: 100%;
+        }      
+    }
+}
