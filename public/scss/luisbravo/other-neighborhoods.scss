@@ -1,0 +1,84 @@
+.other-neighborhoods{
+    .btn{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;       
+        border: 1px solid  #CCCCCC;
+        margin: 5px;
+        transition: all ease-in-out 50ms;
+    }
+    .btn:hover{
+        background: linear-gradient(0deg, #011840, #011840);
+        color: #fff;
+    }
+    .container-neighborhoods{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        .card{
+            background-color: #f4f4f4;
+            width: 45%;
+            margin: 10px;
+            box-shadow: 0px 1px 4px 0px #181A2012;
+            border: none;
+            border-radius: none;
+            .info-neighborhoods{
+                display: flex;
+                .state{
+                    background-color: #0451DDCC ;
+                    color: #F7F7F7;
+                    display: flex;
+                    line-height: 3;
+                    .btn-state{
+                        background-color: #06173DCC;
+                        padding: 0 15px;
+                        font-size: 26px;
+                        font-weight: 700;
+                    }
+                    .info-state{
+                        padding: 0 10px;
+                        font-size: 17px;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                .price{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto ;
+                    .min-price{
+                        font-size: 19px;
+                        font-weight: 600;
+                    }
+                    .max-price{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .neighborhoods-characteristics{
+                margin: 20px;
+                .characteristics{
+                    display: flex;
+                    flex-wrap: wrap;
+                    padding-bottom: 20px;
+                    p{
+                        font-size: 15px;
+                        margin-right: 15px;
+                        i{
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 900px) {
+            .card{
+                margin-top: 20px;
+                width: 100%;
+            }      
+        }
+    }
+}

@@ -1,0 +1,45 @@
+body{
+    background-color: #F4F4F4;
+}
+.carousel{
+    width: 100%;
+    padding: 0;
+    img{
+        display: flex;
+    }
+}
+.title-section{
+    h3{
+        font-size: 42px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 19px;
+    }
+}
+.section-property{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    .btn-property{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        button{
+            padding: 5px 50px;
+            background-color: transparent;
+            border: 1px solid #0451DD;
+            border-radius: 3px;
+            margin: 0 30px;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        button:hover{
+            background-color: #0451DD;
+            color: #F4F4F4;
+        }
+    }
+}

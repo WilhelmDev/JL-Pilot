@@ -1,0 +1,45 @@
+.location-map{
+    padding: 20px;
+    box-shadow: 0px 1px 4px 0px #181A2012;
+    .info-container{
+        margin: 20px;
+        width: 60%;
+        .info-establishments{
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid #DDDDDD;
+        }
+        .establishments-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .establishments{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 10px 0;
+                .info{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .establishments-img{
+                        font-size: 14px;
+                        border: 3px solid #C4C640;
+                        border-radius: 30px;
+                        padding: 10px;
+                        margin: 0 10px;
+                    }
+                    .name-establishment{
+                        font-size: 15px;
+                        h4{
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+            .btn:hover{
+                color: #3112D5;
+            }
+        }
+    }
+}
